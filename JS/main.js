@@ -73,10 +73,10 @@
 
 alert("CIAO! Rispondi a queste TRE semplici domande e genereremo una PASSWORD SUPER SICURA fatta apposta per te!");
 
-const name = prompt("Qual'e' il tuo nome?");
+const Name = prompt("Qual'e' il tuo nome?");
 
 const surname = prompt("Qual'e' il tuo cognome?");
 
 const color = prompt("Qual'e' il tuo colore preferito?");
 
-document.getElementById("password").innerHTML = `${name}${surname}${color}21`;
+document.getElementById("password").innerHTML = `${Name}${surname}${color}21`;
