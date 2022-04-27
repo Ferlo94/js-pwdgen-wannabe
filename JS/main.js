@@ -71,10 +71,12 @@
 
 // il risultato in console sara' 5 
 
-alert("CIAO! Rispondi a queste due semplici domande e genereremo una PASSWORD SUPER SICURA apposta per te!");
+alert("CIAO! Rispondi a queste TRE semplici domande e genereremo una PASSWORD SUPER SICURA fatta apposta per te!");
 
 const name = prompt("Qual'e' il tuo nome?");
 
 const surname = prompt("Qual'e' il tuo cognome?");
 
-document.getElementById("password").innerHTML = `${name} ${surname} 21`;
+const color = prompt("Qual'e' il tuo colore preferito?");
+
+document.getElementById("password").innerHTML = `${name}${surname}${color}21`;
