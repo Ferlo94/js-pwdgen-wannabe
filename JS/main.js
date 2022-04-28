@@ -80,3 +80,5 @@ const surname = prompt("Qual'e' il tuo cognome?");
 const color = prompt("Qual'e' il tuo colore preferito?");
 
 document.getElementById("password").innerHTML = `${Name}${surname}${color}21`;
+
+console.log(`${Name}${surname}${color}21`)
